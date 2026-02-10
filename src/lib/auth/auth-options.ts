@@ -37,7 +37,7 @@ export const authOptions: NextAuthOptions = {
         token.sub = profile.sub;
         token.email = profile.email || "";
         token.name = profile.name || "";
-        
+
         try {
           const existing = await db.query.users.findFirst({
             where: (u, { eq }) => eq(u.email, profile.email!),

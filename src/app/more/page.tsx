@@ -26,7 +26,8 @@ export default function More() {
               🎯 About Us
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              App_NextJs is a modern application built with Next.js 16, showcasing best practices in web development and user experience.
+              App_NextJs is a modern application built with Next.js 16,
+              showcasing best practices in web development and user experience.
             </p>
           </div>
 
@@ -35,7 +36,8 @@ export default function More() {
               🚀 Technology Stack
             </h3>
             <p className="text-gray-600 dark:text-gray-400">
-              Built with Next.js, React, TypeScript, Tailwind CSS, and powered by NextAuth for secure authentication.
+              Built with Next.js, React, TypeScript, Tailwind CSS, and powered
+              by NextAuth for secure authentication.
             </p>
           </div>
         </div>
